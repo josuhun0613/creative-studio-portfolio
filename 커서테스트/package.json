@@ -1,0 +1,22 @@
+{
+  "name": "creative-studio-portfolio",
+  "version": "1.0.0",
+  "description": "Creative Studio - 포트폴리오 웹사이트",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "start": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "creative",
+    "studio",
+    "responsive"
+  ],
+  "author": "Creative Studio",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
