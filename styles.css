@@ -77,19 +77,17 @@ body {
 }
 
 .logo-img {
-    width: 48px;
-    height: 48px;
-    border-radius: 4px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
     object-fit: cover;
-    border: 2px solid rgba(44, 62, 80, 0.3);
+    border: none;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-img:hover {
-    border-color: #2c3e50;
-    transform: scale(1.02);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    opacity: 0.8;
 }
 
 .logo h2 {
